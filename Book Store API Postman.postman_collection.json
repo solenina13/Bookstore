@@ -233,6 +233,8 @@
 							"    pm.expect(pm.response.text()).to.include(\"false\");\r",
 							"});\r",
 							"\r",
+							"console.log(pm.collectionVariables.get(\"name\"));\r",
+							"console.log(pm.response.json().name);\r",
 							""
 						],
 						"type": "text/javascript"
